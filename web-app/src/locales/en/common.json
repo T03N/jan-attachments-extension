@@ -439,7 +439,7 @@
     },
     "unsupportedFileType": {
       "title": "Unsupported File Type",
-      "description": "File extension \".{{extension}}\" is not supported for Project reference."
+      "description": "File type \"{{extension}}\" is not supported for project reference."
     },
     "attachmentsDisabledInfo": {
       "title": "Attachments Disabled",
