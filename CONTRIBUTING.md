@@ -175,12 +175,19 @@ make dev
 - **Dedicated backend handler** → `src-tauri/plugins/`
 
 **The Process:**
-1. Fork the repo
-2. Create a new branch (`git checkout -b feature-name`)
-3. Make your changes (and write tests!)
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin feature-name`)
-6. Open a new Pull Request against `main` branch
+1. **Claim the issue first** - Before writing any code:
+   - Comment on the issue you want to work on (e.g. "I'd like to work on this").
+   - Check that no one else has been assigned or has commented that they are already working on it.
+   - Search for any open pull requests that already reference the issue.
+   - This prevents two contributors from duplicating effort on the same problem.
+2. Fork the repo
+3. Create a new branch (`git checkout -b feature-name`)
+4. Make your changes (and write tests!)
+5. Commit your changes (`git commit -am 'Add some feature'`)
+6. Push to the branch (`git push origin feature-name`)
+7. Open a new Pull Request against `main` branch, referencing the related issue (if applicable)
+
+> **Duplicate PRs**: It is generally not ideal for two separate pull requests to solve the same issue independently. If you discover an existing open PR addressing the same issue, coordinate with that contributor or maintainer instead of submitting a competing solution. Maintainers may close duplicate PRs to avoid review overhead and merge conflicts.
 
 ## Testing
 
